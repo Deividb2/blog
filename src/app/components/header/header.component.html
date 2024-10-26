@@ -1,0 +1,71 @@
+<header class="header">
+    <div class="header__menu-top">
+        <button class="header__menu-top--button-menu" (click)="hendleMenu()">
+            <ng-icon [name]="iconMenu"></ng-icon>
+        </button>
+        <button class="header__menu-top--button-search" (click)="enableInput()">Pesquisar artigo</button>
+    </div>
+
+    <section class="header__search">
+        <h3 class="header__search--title">Leia nossos artigos</h3>
+        <form class="header__search--form" (submit)="onSubmit($event)">
+            <input type="text" name="search" placeholder="Digite sua pesquisa" #inputSearch>
+            <input type="submit" value="buscar">
+        </form>
+    </section>
+    
+    <nav class="header__navegation" [class.openMenu]="menuHendle">
+        <ul>
+            <li>
+                <div>
+                    <ng-icon name="tablerHome"></ng-icon>
+                </div>
+                <a href="#">Blog</a>
+            </li>
+
+            <li>
+                <div>
+                    <ng-icon name="tablerAntennaBars5"></ng-icon>
+                </div>
+                <a href="#">Em alta</a>
+            </li>
+
+            <li>
+                <div>
+                    <ng-icon name="matChat"></ng-icon>
+                </div>
+                <a href="#">Consultoria</a>
+            </li>
+
+            <li>
+                <div>
+                    <ng-icon name="tablerBox"></ng-icon>
+                </div>
+                <a href="#">Produtos</a>
+            </li>
+
+            <li>
+                <div>
+                    <ng-icon name="matPeople"></ng-icon>
+                </div>
+                <a href="#">Comunidade</a>
+            </li>
+
+            <li>
+                <div>
+                    <ng-icon name="matImportContacts"></ng-icon>
+                </div>
+                <a href="#">Sobre</a>
+            </li>
+
+            <li>
+                <div>
+                    <ng-icon name="matPhone"></ng-icon>
+                </div>
+                <a href="#">Contato</a>
+            </li>
+
+        </ul>
+    </nav>
+</header>
+

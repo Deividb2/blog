@@ -1,0 +1,68 @@
+@import "../../../assets/styles/variables";
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: $primary-color-100;
+    padding: 2rem;
+
+    .nav-site {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+
+        h3 {
+            font-size: 1.8rem;
+            color: #fff;
+            border-right: 2px solid #cfcfcf;
+            padding-right: 1rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2.5rem;
+            list-style: none;
+
+            li a {
+                text-decoration: none;
+                color: #fff;
+                font-size: .9rem;
+                padding-bottom: .3rem;
+
+                &:hover {
+                    border-bottom: 1px solid #fff;
+                }
+            }
+
+            li:first-child a {
+                border-bottom: 1px solid #fff;
+            }
+        }
+    }
+
+    .diretrizes {
+        nav ul {
+            display: flex;
+            gap: 1rem;
+            list-style: none;
+
+            li a {
+                text-decoration: none;
+                color: #fff;
+                font-size: .8rem;
+                border-right: 1px solid #fff;
+                padding-right: .8rem;
+            }
+        }
+    }
+
+    .copy {
+        span {
+            font-size: .8rem;
+            color: #fff;
+        }
+    }
+}

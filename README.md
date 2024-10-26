@@ -1,27 +1,47 @@
-# Blog
+[https://neilpatel.com/br/blog/]
+[https://www.zendesk.com.br/blog/]
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
+ - projeção de conteúdo nos cards
+ - roteamento de páginas
 
-## Development server
+## Pages
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Home page
+ - header
+ - artigos principais(6) - ver mais
+ - artigos de leitura rápida
+ - footer
 
-## Code scaffolding
+### Em alta
+ - header
+ - ranking dos 10 melhores artigos
+ - footer
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Consultoria
 
-## Build
+### Product page
+ - header
+ - cards de produtos
+ - formulário de contato
+ - footer
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Comunidade
 
-## Running unit tests
+### About page
+ - header
+ - texto sobre nós
+ - formulário de contato
+ - footer
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Contact page
+ - header
+ - formulário de contato
+ - footer
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Articles pages
+ - header
+ - artigo
+ - formulário de contato
+ - cards com outros artigos
+ - cards com produtos
+ - footer
